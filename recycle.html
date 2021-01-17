@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<title>Trash</title>
+	<link rel="stylesheet" href="styles.css">
+	<style> 
+		body {
+		  background-color: blue;
+		  animation-name: example;
+		  animation-duration: 3s;
+		  color: white;
+		}
+
+		@keyframes example {
+		  from {background-color: white;}
+		  to {background-color: blue;}
+		}
+
+		.bigtext{
+			font-family: sans-serif;
+			font: verdana;
+			text-align: center;
+			position: absolute;
+			top: 50%;
+			bottom: 50%;     
+			width: 100%;
+			display:flex;
+			justify-content: center;
+		}
+
+		.nav-link-wrapper a{
+			color : white;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="about.html">About</a>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          WASTE MASTER
+        </div>
+      </div>
+    </div>
+	<div class="bigtext">
+		<h1>This item belongs in the recycle bin.</h1>
+	</div>
+</body>
+</html>
